@@ -139,7 +139,7 @@ body{
     #footer .social-item img{
         filter: grayscale(1);
         transition: .3s ease filter;
-        margin-left: 10rem;
+        margin-left: 5rem;
     }
     #footer .social-item:hover img{
         filter: grayscale(0);
