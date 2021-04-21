@@ -1,0 +1,153 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body{
+    background: #2e8d86;
+}
+
+.container{
+    width: 80%;
+    margin: 80px auto;
+}
+
+.container h1{
+    padding: 60px 0;
+    color: #fff;
+    font-size: 44px;
+    text-align: center;
+}
+
+.container h1 span{
+    color: green;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container h2{
+    padding: 60px 20px;
+    color: chartreuse;
+    font-size: 20px;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.col{
+    flex-basis: 50%;
+    min-width: 250px;
+}
+
+
+.small-img-row{
+    display: flex;
+    background: #2e8d86;
+    margin: 0;
+    align-items: top;
+    border-radius: 2px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.small-img{
+    padding-top: 40px;
+    position: relative;
+}
+.small-img img{
+    width: 150px;
+}
+
+.small-img-row p{
+    margin-left: 20px;
+    padding-top: 20px;
+    color: black;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+
+.wrapper{
+    margin: 0 auto;
+    width: 80%;
+    align-content: center;
+}
+
+.videowrapper{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0px;
+}
+
+.videowrapper iframe{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+}
+
+/* Footer */
+#footer{
+    background-image: linear-gradient(60deg,#8fd3f4 0%, #8fd3f4 100%);
+    } 
+    #footer .footer {
+        min-height: 200px;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+
+    #footer h3{
+        text-align: center;
+        color: black;
+    }
+
+    #footer h4{
+        text-align: center;
+        color: black;
+    }
+
+    #footer h2{
+        color: brown;
+        font-weight: 500;
+        font-size: 1.8rem;
+        letter-spacing: .1rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #footer .social-icon{
+        display: flex;
+        margin-bottom: 30px;
+        align-content: center;
+        align-items: center;
+    }
+    #footer .social-item{
+        height: 50px;
+        width: 50px;
+        margin: 0 5px;
+    
+    }
+    #footer .social-item img{
+        filter: grayscale(1);
+        transition: .3s ease filter;
+        margin-left: 10rem;
+    }
+    #footer .social-item:hover img{
+        filter: grayscale(0);
+    }
+    #footer p{
+        color:gray;
+        font-size: 1.3rem;
+        text-align: center;
+        
+    }
+    /* End of Footer */ 
